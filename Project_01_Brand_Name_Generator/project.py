@@ -1,0 +1,5 @@
+print("Welcome to BRAND NAME GENERATOR!")
+First_Name = input("Enter a name that describes your brand e.g(fast,bold,hot): \n")
+Second_Name = input("Enter another word that you want to focus on: \n")
+Brand_Name = First_Name.capitalize() + Second_Name.capitalize()
+print(f"your unique Brand name is: {Brand_Name}")
